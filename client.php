@@ -1,5 +1,5 @@
 <?php
-$data     = 'message=ใส่ข้อความที่นี่';
+$data     = ;
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, "http://202.28.34.201/api2/checklogin2.php");
 curl_setopt($ch, CURLOPT_POST, 1);
